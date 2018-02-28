@@ -10,6 +10,7 @@ module.exports = () => {
             filename: 'bundle.js',
             publicPath: '/dist/',
         },
+        devtool: 'eval',
     };
     
     return webpackValidator(config);
